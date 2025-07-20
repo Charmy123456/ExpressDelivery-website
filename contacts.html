@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Même head que index.html -->
+</head>
+<body>
+    <!-- Même header que index.html -->
+
+    <section class="section contact" id="contact">
+        <div class="section-title">
+            <h2>Contactez-nous</h2>
+            <p>Nous sommes à votre disposition</p>
+        </div>
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h3>Informations de contact</h3>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>WhatsApp</h4>
+                        <a href="https://wa.me/243894036799">+243 894 036 799</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Email</h4>
+                        <a href="mailto:Expressdelivery0525@gmail.com">Expressdelivery0525@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Localisation</h4>
+                        <p>Lubumbashi, République Démocratique du Congo</p>
+                    </div>
+                </div>
+                
+                <h3 style="margin-top: 2.5rem;">Suivez-nous</h3>
+                <div class="social-links">
+                    <a href="https://instagram.com/ExpressDelivery2025" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://facebook.com/ExpressDelivery" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://wa.me/243894036799" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <h3>Envoyez-nous un message</h3>
+                <form id="deliveryForm">
+                    <div class="form-group">
+                        <label for="name">Nom complet</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Téléphone</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service souhaité</label>
+                        <select id="service" required>
+                            <option value="">Sélectionnez un service</option>
+                            <option value="entreprise">Livraison pour entreprises</option>
+                            <option value="vendeurs">Vendeurs en ligne</option>
+                            <option value="repas">Repas à domicile</option>
+                            <option value="courses">Courses personnalisées</option>
+                            <option value="demenagement">Aide au déménagement</option>
+                            <option value="expedition">Expédition de colis</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Détails de votre demande</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-btn" style="width: 100%;">Envoyer la demande</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Même footer que index.html -->
+
+    <script src="assets/js/form-handler.js"></script>
+</body>
+</html>
